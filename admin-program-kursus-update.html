@@ -40,7 +40,7 @@
                 <h3>Tambah</h3>
                 <form action="">
                     <div class="form-group">
-                        <input type="text" name="" placeholder="nama" id="" class="form-control">
+                        <input type="text" name="name" value="web design" placeholder="nama" id="" class="form-control">
                     </div>
 
                     <div class="form-group">
@@ -52,14 +52,15 @@
                     </div>
 
                     <div class="form-group">
-                        <input type="text" name="" placeholder="price" id="" class="form-control">
+                        <input type="number" name="price" placeholder="price" value="3000000" id="" class="form-control">
                     </div>
 
                     <div class="form-group">
-                        <input type="text" name="" placeholder="quota" id="" class="form-control">
+                        <input type="number" name="quota" placeholder="quota" value="10" id="" class="form-control">
                     </div>
 
-                    <input type="submit" value="add course" class="btn btn-block btn-danger">
+                    <input type="submit" value="update" class="btn btn-block btn-info">
+                    <a class="btn text-white btn-block btn-warning" href="admin-program-kursus.html">back</a>
                 </form>
             </div>
             <div class="col">
@@ -72,7 +73,6 @@
                             <th>waktu studi</th>
                             <th>harga</th>
                             <th>kuota</th>
-                            <th>Action</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -82,10 +82,6 @@
                             <td>1 bulan</td>
                             <td>3.000.000</td>
                             <td>10</td>
-                            <td>
-                                <a href="admin-program-kursus-update.html" class="btn btn-sm btn-info">ubah</a>
-                                <a href="#" class="btn btn-sm btn-danger">hapus</a>
-                            </td>
                         </tr>
                     </tbody>
                 </table>
